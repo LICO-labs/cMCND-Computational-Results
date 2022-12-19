@@ -1,0 +1,80 @@
+
+Log started (V20.1.0.0) Wed Nov 23 19:20:31 2022
+
+
+Problem 'LinA/LPs/c42_03_7.lp' read.
+Read time = 0.03 sec. (1.90 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_Threads                                 1
+CPXPARAM_TimeLimit                               3600
+Tried aggregator 1 time.
+MIP Presolve eliminated 199 rows and 0 columns.
+MIP Presolve added 320 rows and 80 columns.
+MIP Presolve modified 38 coefficients.
+Reduced MIP has 13055 rows, 12374 columns, and 72176 nonzeros.
+Reduced MIP has 374 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.03 sec. (32.70 ticks)
+Probing time = 0.00 sec. (2.42 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+Reduced MIP has 13055 rows, 12374 columns, and 72176 nonzeros.
+Reduced MIP has 374 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.03 sec. (32.10 ticks)
+Probing time = 0.00 sec. (2.42 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.11 sec. (140.21 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0  1380164.2002    28                1380164.2002     2336         
+*     0+    0                      1439287.7508  1380164.2002             4.11%
+      0     0  1380437.7351    48  1439287.7508      Cuts: 45     2385    4.09%
+      0     0  1380806.5578    54  1439287.7508      Cuts: 34     2435    4.06%
+      0     0  1381282.5835    60  1439287.7508      Cuts: 32     2491    4.03%
+      0     0  1382340.3231    59  1439287.7508      Cuts: 40     2562    3.96%
+      0     0  1382543.4611    55  1439287.7508      Cuts: 26     2597    3.94%
+*     0+    0                      1395250.0533  1382543.4611             0.91%
+*     0+    0                      1393813.3196  1382543.4611             0.81%
+*     0+    0                      1391214.1471  1382543.4611             0.62%
+      0     0  -1.00000e+75     0  1391214.1471  1382543.4611     2597    0.62%
+Detecting symmetries...
+      0     0  1382609.9906    59  1391214.1471      Cuts: 12     2612    0.62%
+      0     0  1383143.3172    51  1391214.1471      Cuts: 12     2653    0.58%
+      0     0  1383169.0280    53  1391214.1471      Cuts: 11     2664    0.58%
+*     0+    0                      1390921.9101  1383169.0280             0.56%
+      0     0  -1.00000e+75     0  1390921.9101  1383169.0280     2664    0.56%
+Detecting symmetries...
+      0     2  1383169.0280    53  1390921.9101  1383177.2424     2664    0.56%
+Elapsed time = 1.39 sec. (2107.43 ticks, tree = 0.01 MB, solutions = 5)
+*    20+   14                      1390862.5106  1384210.0274             0.48%
+     28    24  1388900.6184     3  1390862.5106  1384210.0274     3041    0.48%
+*    30    19      integral     0  1388956.8775  1384210.0274     3044    0.34%
+     50    29  1386173.7801    50  1388956.8775  1384400.6574     3333    0.33%
+     77    33        cutoff        1388956.8775  1386226.5968     3723    0.20%
+     90    34  1387308.8760    39  1388956.8775  1386919.0059     3967    0.15%
+    125    25        cutoff        1388956.8775  1388051.7717     4377    0.07%
+
+Cover cuts applied:  1
+Flow cuts applied:  19
+Mixed integer rounding cuts applied:  33
+Gomory fractional cuts applied:  4
+
+Root node processing (before b&c):
+  Real time             =    1.39 sec. (2100.98 ticks)
+Sequential b&c:
+  Real time             =    0.70 sec. (1370.84 ticks)
+                          ------------
+Total (root+branch&cut) =    2.09 sec. (3471.82 ticks)
+
+Solution pool: 7 solutions saved.
+
+MIP - Integer optimal, tolerance (0.0001/1e-06):  Objective =  1.3889568775e+06
+Current MIP best bound =  1.3888287615e+06 (gap = 128.116, 0.01%)
+Solution time =    2.09 sec.  Iterations = 4499  Nodes = 144 (7)
+Deterministic time = 3471.85 ticks  (1658.00 ticks/sec)
+
+
+Incumbent solution written to file 'LinA/results/c42_03_7.txt'.

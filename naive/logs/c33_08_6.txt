@@ -1,0 +1,69 @@
+
+Log started (V20.1.0.0) Mon Nov 28 05:31:28 2022
+
+
+Problem 'naive/LPs/c33_08_6.lp' read.
+Read time = 0.02 sec. (1.46 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_Threads                                 1
+CPXPARAM_TimeLimit                               3600
+Tried aggregator 1 time.
+MIP Presolve eliminated 160 rows and 0 columns.
+MIP Presolve added 320 rows and 80 columns.
+Reduced MIP has 10140 rows, 9500 columns, and 55340 nonzeros.
+Reduced MIP has 308 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (20.39 ticks)
+Probing time = 0.00 sec. (1.88 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+Reduced MIP has 10140 rows, 9500 columns, and 55340 nonzeros.
+Reduced MIP has 308 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (24.64 ticks)
+Probing time = 0.00 sec. (1.88 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.05 sec. (57.59 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0   986843.1890    11                 986843.1890     1463         
+*     0+    0                       992168.2976   986843.1890             0.54%
+      0     0   986932.0576    18   992168.2976       Cuts: 9     1485    0.53%
+      0     0   987212.6825    25   992168.2976      Cuts: 28     1529    0.50%
+      0     0   987341.2455    34   992168.2976      Cuts: 25     1551    0.49%
+      0     0   987724.7893    40   992168.2976      Cuts: 26     1603    0.45%
+      0     0   988175.9611    39   992168.2976      Cuts: 33     1652    0.40%
+Detecting symmetries...
+      0     0   989064.5965    30   992168.2976      Cuts: 41     1707    0.31%
+*     0+    0                       991821.9649   989064.5965             0.28%
+      0     0  -1.00000e+75     0   991821.9649   989064.5965     1707    0.28%
+      0     0   989227.6064    37   991821.9649      Cuts: 28     1735    0.26%
+      0     0   989335.6263    33   991821.9649      Cuts: 34     1769    0.25%
+      0     0   989462.9714    32   991821.9649      Cuts: 13     1798    0.24%
+      0     0   989495.7624    35   991821.9649      Cuts: 16     1812    0.23%
+      0     0   989720.8810    34   991821.9649      Cuts: 14     1851    0.21%
+      0     0   989751.4622    34   991821.9649      Cuts: 16     1863    0.21%
+Detecting symmetries...
+      0     2   989751.4622    34   991821.9649   989787.1619     1863    0.21%
+Elapsed time = 0.89 sec. (1253.97 ticks, tree = 0.01 MB, solutions = 2)
+
+Flow cuts applied:  25
+Mixed integer rounding cuts applied:  50
+
+Root node processing (before b&c):
+  Real time             =    0.89 sec. (1249.56 ticks)
+Sequential b&c:
+  Real time             =    0.09 sec. (201.69 ticks)
+                          ------------
+Total (root+branch&cut) =    0.98 sec. (1451.25 ticks)
+
+Solution pool: 2 solutions saved.
+
+MIP - Integer optimal solution:  Objective =  9.9182196490e+05
+Solution time =    1.00 sec.  Iterations = 2132  Nodes = 39
+Deterministic time = 1451.27 ticks  (1451.27 ticks/sec)
+
+
+Incumbent solution written to file 'naive/results/c33_08_6.txt'.

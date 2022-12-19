@@ -1,0 +1,84 @@
+
+Log started (V20.1.0.0) Mon Nov 28 05:14:13 2022
+
+
+Problem 'naive/LPs/c25_100_10_F_T_5_03_6.lp' read.
+Read time = 0.00 sec. (0.17 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_Threads                                 1
+CPXPARAM_TimeLimit                               3600
+Tried aggregator 2 times.
+MIP Presolve eliminated 1012 rows and 8 columns.
+MIP Presolve added 400 rows and 100 columns.
+MIP Presolve modified 796 coefficients.
+Aggregator did 2 substitutions.
+Reduced MIP has 836 rows, 1534 columns, and 6433 nonzeros.
+Reduced MIP has 192 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (4.42 ticks)
+Probing fixed 1 vars, tightened 0 bounds.
+Probing time = 0.00 sec. (0.43 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 11 rows and 1 columns.
+Reduced MIP has 825 rows, 1533 columns, and 6402 nonzeros.
+Reduced MIP has 191 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (3.05 ticks)
+Probing time = 0.00 sec. (0.40 ticks)
+Clique table members: 13.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.02 sec. (16.69 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0    77222.5766    27                  77222.5766      694         
+      0     0    80292.7979    46                   Cuts: 183      835         
+      0     0    81685.2298    49                   Cuts: 133      956         
+      0     0    82013.2088    42                    Cuts: 95     1047         
+      0     0    82113.5104    53                    Cuts: 42     1108         
+      0     0    82141.3064    47                    Cuts: 26     1134         
+Detecting symmetries...
+      0     0    82198.4746    60                    Cuts: 33     1179         
+      0     0    82258.7189    59                    Cuts: 49     1230         
+      0     0    82291.8592    54                    Cuts: 41     1273         
+      0     0    82317.1038    62                    Cuts: 23     1315         
+      0     0    82324.4151    56                    Cuts: 42     1350         
+      0     0    82327.5429    61                    Cuts: 22     1385         
+*     0+    0                        84532.2814    82327.5429             2.61%
+Detecting symmetries...
+      0     2    82327.5429    61    84532.2814    82328.1926     1385    2.61%
+Elapsed time = 0.38 sec. (477.48 ticks, tree = 0.01 MB, solutions = 1)
+     59    44    84196.6051     5    84532.2814    82350.9002     4829    2.58%
+    100    70    83604.8535    17    84532.2814    82656.1706     7855    2.22%
+*   110+   78                        84510.2856    82656.1706             2.19%
+    157   108    84016.0143    35    84510.2856    82772.7834    11686    2.06%
+    209   132    83850.7812    27    84510.2856    82945.5557    14900    1.85%
+*   270+   76                        83989.4430    83157.3985             0.99%
+    290    81    83529.5089    33    83989.4430    83300.3258    17469    0.82%
+    381    49        cutoff          83989.4430    83771.7733    20331    0.26%
+
+Clique cuts applied:  1
+Cover cuts applied:  3
+Implied bound cuts applied:  9
+Flow cuts applied:  45
+Mixed integer rounding cuts applied:  102
+Lift and project cuts applied:  7
+Gomory fractional cuts applied:  3
+
+Root node processing (before b&c):
+  Real time             =    0.38 sec. (477.49 ticks)
+Sequential b&c:
+  Real time             =    1.06 sec. (1561.70 ticks)
+                          ------------
+Total (root+branch&cut) =    1.44 sec. (2039.18 ticks)
+
+Solution pool: 3 solutions saved.
+
+MIP - Integer optimal solution:  Objective =  8.3989443037e+04
+Solution time =    1.44 sec.  Iterations = 21314  Nodes = 434
+Deterministic time = 2039.19 ticks  (1419.06 ticks/sec)
+
+
+Incumbent solution written to file 'naive/results/c25_100_10_F_T_5_03_6.txt'.

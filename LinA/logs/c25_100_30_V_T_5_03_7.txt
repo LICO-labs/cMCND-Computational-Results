@@ -1,0 +1,86 @@
+
+Log started (V20.1.0.0) Wed Nov 23 00:12:39 2022
+
+
+Problem 'LinA/LPs/c25_100_30_V_T_5_03_7.lp' read.
+Read time = 0.00 sec. (0.49 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_Threads                                 1
+CPXPARAM_TimeLimit                               3600
+Tried aggregator 2 times.
+MIP Presolve eliminated 1234 rows and 14 columns.
+MIP Presolve added 396 rows and 99 columns.
+MIP Presolve modified 914 coefficients.
+Aggregator did 29 substitutions.
+Reduced MIP has 3083 rows, 3455 columns, and 17563 nonzeros.
+Reduced MIP has 195 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (11.84 ticks)
+Probing time = 0.00 sec. (0.77 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+Reduced MIP has 3083 rows, 3455 columns, and 17563 nonzeros.
+Reduced MIP has 195 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (8.42 ticks)
+Probing time = 0.00 sec. (0.76 ticks)
+Clique table members: 14.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.05 sec. (72.48 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0   889425.2236    42                 889425.2236     1714         
+      0     0   889948.7528    44                   Cuts: 177     1777         
+      0     0   890133.9778    37                    Cuts: 85     1825         
+      0     0   890140.0644    28                    Cuts: 34     1838         
+*     0+    0                       899251.1690   890140.0644             1.01%
+      0     0   890177.8117    43   899251.1690      Cuts: 15     1864    1.01%
+*     0+    0                       898460.1605   890177.8117             0.92%
+      0     0   890191.0941    35   898460.1605      Cuts: 18     1885    0.92%
+Detecting symmetries...
+      0     0   890219.3775    30   898460.1605      Cuts: 10     1896    0.92%
+      0     0   890236.8263    31   898460.1605       Cuts: 9     1902    0.92%
+*     0+    0                       895062.9547   890236.8263             0.54%
+*     0+    0                       894360.1352   890236.8263             0.46%
+*     0+    0                       893818.6500   890236.8263             0.40%
+*     0+    0                       893662.6182   890236.8263             0.38%
+*     0+    0                       893468.0048   890236.8263             0.36%
+*     0+    0                       893447.3268   890236.8263             0.36%
+      0     0  -1.00000e+75     0   893447.3268   890236.8263     1902    0.36%
+Detecting symmetries...
+      0     2   890236.8263    31   893447.3268   890242.7411     1902    0.36%
+Elapsed time = 0.63 sec. (828.04 ticks, tree = 0.01 MB, solutions = 8)
+     72    51   893037.2187    18   893447.3268   890765.9598     2785    0.30%
+*    90+   59                       893419.4492   890765.9598             0.30%
+*   190+  122                       893410.0222   891793.4828             0.18%
+    190   124   893274.7108    15   893410.0222   891793.4828     3507    0.18%
+    310   174   893172.3315    19   893410.0222   892253.0772     4319    0.13%
+    424   219   893316.7203    21   893410.0222   892436.8272     4915    0.11%
+    569   237        cutoff         893410.0222   892810.3406     5895    0.07%
+    719   217        cutoff         893410.0222   893052.9581     6803    0.04%
+    883   169   893382.2489    17   893410.0222   893213.8392     7660    0.02%
+
+Implied bound cuts applied:  7
+Flow cuts applied:  42
+Mixed integer rounding cuts applied:  28
+Lift and project cuts applied:  2
+Gomory fractional cuts applied:  4
+
+Root node processing (before b&c):
+  Real time             =    0.63 sec. (828.22 ticks)
+Sequential b&c:
+  Real time             =    1.08 sec. (1965.22 ticks)
+                          ------------
+Total (root+branch&cut) =    1.70 sec. (2793.44 ticks)
+
+Solution pool: 10 solutions saved.
+
+MIP - Integer optimal, tolerance (0.0001/1e-06):  Objective =  8.9341002219e+05
+Current MIP best bound =  8.9332131286e+05 (gap = 88.7093, 0.01%)
+Solution time =    1.70 sec.  Iterations = 8386  Nodes = 1026 (87)
+Deterministic time = 2793.45 ticks  (1640.31 ticks/sec)
+
+
+Incumbent solution written to file 'LinA/results/c25_100_30_V_T_5_03_7.txt'.
