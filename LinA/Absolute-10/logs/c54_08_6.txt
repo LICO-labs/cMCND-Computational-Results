@@ -1,0 +1,53 @@
+
+Log started (V12.8.0.0) Sat Apr  6 05:12:42 2024
+
+
+Problem '/net/phorcys/data/roc/sun/MPC20240405/lp/c54_08_6_pwl_Lina-absolute-precision_10.lp' read.
+Read time = 1.96 sec. (35.21 ticks)
+CPXPARAM_TimeLimit                               3600
+CPXPARAM_Threads                                 1
+Tried aggregator 1 time.
+Reduced MIP has 220640 rows, 209562 columns, and 1251496 nonzeros.
+Reduced MIP has 520 binaries, 0 generals, 30 SOSs, and 0 indicators.
+Presolve time = 2.80 sec. (422.52 ticks)
+Probing time = 0.11 sec. (40.37 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 220640 rows, 209562 columns, and 1251496 nonzeros.
+Reduced MIP has 520 binaries, 0 generals, 30 SOSs, and 0 indicators.
+Presolve time = 3.69 sec. (537.59 ticks)
+Probing time = 0.12 sec. (40.37 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 2318.65 sec. (294963.29 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0   387356.0875   220                 387356.0875   106733         
+      0     0   387373.2488   244                    Cuts: 48   107145         
+      0     0   387387.4359   229                 MIRcuts: 36   107652         
+      0     0   387392.3521   231                 MIRcuts: 15   107885         
+      0     0   387393.1663   240                 MIRcuts: 17   107988         
+Heuristic still looking.
+Heuristic still looking.
+Heuristic still looking.
+
+Mixed integer rounding cuts applied:  61
+
+Root node processing (before b&c):
+  Real time             = 3600.34 sec. (483185.86 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) = 3600.34 sec. (483185.86 ticks)
+
+
+MIP - Time limit exceeded, no integer solution.
+Current MIP best bound =  3.8739316631e+05 (gap is infinite)
+Solution time = 3600.34 sec.  Iterations = 107988  Nodes = 0 (1)
+Deterministic time = 483186.46 ticks  (134.21 ticks/sec)
+
+
+CPLEX Error  1217: No solution exists.
+No file written.

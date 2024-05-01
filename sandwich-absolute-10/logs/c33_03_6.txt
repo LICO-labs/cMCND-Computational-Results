@@ -1,0 +1,91 @@
+
+Log started (V12.8.0.0) Sat Apr  6 06:44:57 2024
+
+
+Problem '/net/phorcys/data/roc/sun/MPC20240405/lp/c33_03_6_pwl_sandwich-absolute-precision_10.lp' read.
+Read time = 0.42 sec. (1.44 ticks)
+CPXPARAM_TimeLimit                               3600
+CPXPARAM_Threads                                 1
+Tried aggregator 1 time.
+MIP Presolve modified 1393 coefficients.
+Reduced MIP has 9980 rows, 10553 columns, and 57779 nonzeros.
+Reduced MIP has 228 binaries, 0 generals, 20 SOSs, and 0 indicators.
+Presolve time = 0.06 sec. (22.79 ticks)
+Probing time = 0.00 sec. (1.78 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 9980 rows, 10553 columns, and 57779 nonzeros.
+Reduced MIP has 228 binaries, 0 generals, 20 SOSs, and 0 indicators.
+Presolve time = 0.04 sec. (24.71 ticks)
+Probing time = 0.00 sec. (1.78 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.06 sec. (48.12 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0  1016128.0324    11                1016128.0324     1247         
+*     0+    0                      1021446.0918  1016128.0324             0.52%
+      0     0  1016160.0106     9  1021446.0918       Cuts: 7     1254    0.52%
+      0     0  1016412.7890     9  1021446.0918       Cuts: 3     1259    0.49%
+      0     0  1016416.2840    10  1021446.0918    MIRcuts: 2     1260    0.49%
+      0     0  1016417.3804    15  1021446.0918    MIRcuts: 2     1262    0.49%
+*     0+    0                      1017909.0925  1016417.3804             0.15%
+
+Repeating presolve.
+Tried aggregator 1 time.
+MIP Presolve eliminated 4709 rows and 3742 columns.
+MIP Presolve modified 4310 coefficients.
+Reduced MIP has 5271 rows, 6811 columns, and 33428 nonzeros.
+Reduced MIP has 110 binaries, 0 generals, 20 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (14.32 ticks)
+Probing fixed 1 vars, tightened 0 bounds.
+Probing time = 0.00 sec. (1.88 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 40 rows and 1 columns.
+Reduced MIP has 5231 rows, 6810 columns, and 33310 nonzeros.
+Reduced MIP has 109 binaries, 0 generals, 20 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (14.15 ticks)
+Represolve time = 0.04 sec. (37.53 ticks)
+Probing time = 0.00 sec. (1.76 ticks)
+Clique table members: 6.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.02 sec. (18.68 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                      1017909.0925  1016417.3804             0.15%
+      0     0  1016419.0569    15  1017909.0925  1016419.0569     2054    0.15%
+      0     0  1016584.0082    11  1017909.0925       Cuts: 5     2064    0.13%
+      0     0  1016626.4252    10  1017909.0925       Cuts: 4     2067    0.13%
+      0     0  1016627.0418    10  1017909.0925    MIRcuts: 2     2068    0.13%
+      0     0  1016673.4325    11  1017909.0925       Cuts: 3     2073    0.12%
+      0     0  1016677.6946    12  1017909.0925    MIRcuts: 3     2076    0.12%
+      0     2  1016677.6946    12  1017909.0925  1016680.9474     2076    0.12%
+Elapsed time = 0.94 sec. (904.28 ticks, tree = 0.01 MB, solutions = 2)
+     94    15  1017511.8564     7  1017909.0925  1017490.4265     3003    0.04%
+
+Flow cuts applied:  2
+Mixed integer rounding cuts applied:  6
+Gomory fractional cuts applied:  1
+
+Root node processing (before b&c):
+  Real time             =    0.94 sec. (904.19 ticks)
+Sequential b&c:
+  Real time             =    0.42 sec. (477.16 ticks)
+                          ------------
+Total (root+branch&cut) =    1.36 sec. (1381.35 ticks)
+
+Solution pool: 2 solutions saved.
+
+MIP - Integer optimal, tolerance (0.0001/1e-06):  Objective =  1.0179090925e+06
+Current MIP best bound =  1.0178234767e+06 (gap = 85.6158, 0.01%)
+Solution time =    1.36 sec.  Iterations = 3460  Nodes = 164 (6)
+Deterministic time = 1381.38 ticks  (1018.49 ticks/sec)
+
+
+Incumbent solution written to file '/net/phorcys/data/roc/sun/MPC20240405/results/sol/c33_03_6_pwl_sandwich-absolute-precision_10.txt'.

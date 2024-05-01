@@ -1,0 +1,84 @@
+
+Log started (V12.8.0.0) Sat Apr  6 06:52:59 2024
+
+
+Problem '/net/phorcys/data/roc/sun/MPC20240405/lp/c41_03_6_pwl_sandwich-absolute-precision_10.lp' read.
+Read time = 0.44 sec. (1.84 ticks)
+CPXPARAM_TimeLimit                               3600
+CPXPARAM_Threads                                 1
+Tried aggregator 1 time.
+MIP Presolve modified 1598 coefficients.
+Reduced MIP has 12688 rows, 13446 columns, and 74222 nonzeros.
+Reduced MIP has 288 binaries, 0 generals, 20 SOSs, and 0 indicators.
+Presolve time = 0.10 sec. (29.04 ticks)
+Probing time = 0.01 sec. (2.29 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 12688 rows, 13446 columns, and 74222 nonzeros.
+Reduced MIP has 288 binaries, 0 generals, 20 SOSs, and 0 indicators.
+Presolve time = 0.08 sec. (31.74 ticks)
+Probing time = 0.00 sec. (2.29 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.10 sec. (61.43 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0  1122503.4745     7                1122503.4745     1420         
+*     0+    0                      1128977.8609  1122503.4745             0.57%
+      0     0  1122560.5673     9  1128977.8609       Cuts: 6     1424    0.57%
+      0     0  1122787.1927    11  1128977.8609    MIRcuts: 5     1435    0.55%
+      0     0  1122803.7939    11  1128977.8609       Cuts: 3     1440    0.55%
+*     0+    0                      1123507.7464  1122803.7939             0.06%
+
+Repeating presolve.
+MIP Presolve eliminated 1 redundant SOS constraints.
+Tried aggregator 2 times.
+MIP Presolve eliminated 8773 rows and 7330 columns.
+MIP Presolve modified 3020 coefficients.
+Aggregator did 2 substitutions.
+Reduced MIP has 3913 rows, 6114 columns, and 27277 nonzeros.
+Reduced MIP has 74 binaries, 0 generals, 19 SOSs, and 0 indicators.
+Presolve time = 0.03 sec. (22.40 ticks)
+Probing time = 0.00 sec. (1.43 ticks)
+Tried aggregator 1 time.
+MIP Presolve modified 40 coefficients.
+Reduced MIP has 3913 rows, 6114 columns, and 27277 nonzeros.
+Reduced MIP has 74 binaries, 0 generals, 19 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (11.76 ticks)
+Represolve time = 0.06 sec. (42.63 ticks)
+Probing time = 0.00 sec. (1.40 ticks)
+Clique table members: 7.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.02 sec. (11.50 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                      1123507.7464  1122803.7939             0.06%
+      0     0  1122811.1865    11  1123507.7464  1122811.1865     1988    0.06%
+      0     0  1122834.8786     9  1123507.7464   Flowcuts: 1     1990    0.06%
+      0     0  1122903.5026     4  1123507.7464    MIRcuts: 1     1993    0.05%
+      0     2  1122903.5026     4  1123507.7464  1122904.0273     1993    0.05%
+Elapsed time = 1.42 sec. (906.96 ticks, tree = 0.01 MB, solutions = 2)
+
+Mixed integer rounding cuts applied:  4
+
+Root node processing (before b&c):
+  Real time             =    1.42 sec. (907.15 ticks)
+Sequential b&c:
+  Real time             =    0.04 sec. (30.90 ticks)
+                          ------------
+Total (root+branch&cut) =    1.45 sec. (938.05 ticks)
+
+Solution pool: 2 solutions saved.
+
+MIP - Integer optimal solution:  Objective =  1.1235077464e+06
+Solution time =    1.45 sec.  Iterations = 2050  Nodes = 17
+Deterministic time = 938.08 ticks  (645.19 ticks/sec)
+
+
+Incumbent solution written to file '/net/phorcys/data/roc/sun/MPC20240405/results/sol/c41_03_6_pwl_sandwich-absolute-precision_10.txt'.

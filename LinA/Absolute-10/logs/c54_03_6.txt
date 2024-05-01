@@ -1,0 +1,84 @@
+
+Log started (V12.8.0.0) Sat Apr  6 02:57:28 2024
+
+
+Problem '/net/phorcys/data/roc/sun/MPC20240405/lp/c54_03_6_pwl_Lina-absolute-precision_10.lp' read.
+Read time = 1.77 sec. (35.21 ticks)
+CPXPARAM_TimeLimit                               3600
+CPXPARAM_Threads                                 1
+Tried aggregator 1 time.
+Reduced MIP has 220640 rows, 209389 columns, and 1250977 nonzeros.
+Reduced MIP has 520 binaries, 0 generals, 30 SOSs, and 0 indicators.
+Presolve time = 1.35 sec. (422.30 ticks)
+Probing time = 0.05 sec. (40.37 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 220640 rows, 209389 columns, and 1250977 nonzeros.
+Reduced MIP has 520 binaries, 0 generals, 30 SOSs, and 0 indicators.
+Presolve time = 1.35 sec. (537.09 ticks)
+Probing time = 0.05 sec. (40.37 ticks)
+
+Log started (V12.8.0.0) Sat Apr  6 03:35:32 2024
+
+
+Problem '/net/phorcys/data/roc/sun/MPC20240405/lp/c54_03_6_pwl_Lina-absolute-precision_10.lp' read.
+Read time = 1.24 sec. (35.21 ticks)
+CPXPARAM_TimeLimit                               3600
+CPXPARAM_Threads                                 1
+Tried aggregator 1 time.
+Reduced MIP has 220640 rows, 209389 columns, and 1250977 nonzeros.
+Reduced MIP has 520 binaries, 0 generals, 30 SOSs, and 0 indicators.
+Presolve time = 1.61 sec. (422.30 ticks)
+Probing time = 0.06 sec. (40.37 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 220640 rows, 209389 columns, and 1250977 nonzeros.
+Reduced MIP has 520 binaries, 0 generals, 30 SOSs, and 0 indicators.
+Presolve time = 1.86 sec. (537.09 ticks)
+Probing time = 0.05 sec. (40.37 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 1490.18 sec. (228452.16 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0   394425.7147   227                 394425.7147   135551         
+      0     0   394444.4024   241                    Cuts: 48   135989         
+      0     0   394460.7949   231                 MIRcuts: 47   136340         
+      0     0   394464.3490   240                 MIRcuts: 28   136572         
+      0     0   394465.8497   237                    Cuts: 16   136711         
+Heuristic still looking.
+Heuristic still looking.
+Heuristic still looking.
+Heuristic still looking.
+      0     2   394465.8497   237                 394465.8682   136711         
+Elapsed time = 3153.67 sec. (446932.65 ticks, tree = 0.01 MB, solutions = 0)
+      1     3   394468.3203   235                 394466.3941   136965         
+      2     4   394474.5517   244                 394468.3547   137370         
+      3     5   394489.9197   239                 394468.3547   137990         
+      4     6   394522.3684   234                 394474.5708   138287         
+      5     7   394522.4984   238                 394474.5708   138425         
+      6     8   394612.5126   237                 394474.5708   141162         
+      7     9   394522.7167   234                 394474.5708   141778         
+      8    10   394533.5433   230                 394474.5708   142584         
+      9    11   394560.8284   238                 394474.5708   143811         
+
+Flow cuts applied:  2
+Mixed integer rounding cuts applied:  59
+
+Root node processing (before b&c):
+  Real time             = 3153.44 sec. (446877.22 ticks)
+Sequential b&c:
+  Real time             =  446.66 sec. (61669.98 ticks)
+                          ------------
+Total (root+branch&cut) = 3600.09 sec. (508547.20 ticks)
+
+
+MIP - Time limit exceeded, no integer solution.
+Current MIP best bound =  3.9447457083e+05 (gap is infinite)
+Solution time = 3600.10 sec.  Iterations = 144925  Nodes = 10 (11)
+Deterministic time = 508547.80 ticks  (141.26 ticks/sec)
+
+
+CPLEX Error  1217: No solution exists.
+No file written.

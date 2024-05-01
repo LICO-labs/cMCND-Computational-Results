@@ -1,0 +1,103 @@
+
+Log started (V12.8.0.0) Sat Apr  6 07:58:49 2024
+
+
+Problem '/net/phorcys/data/roc/sun/MPC20240405/lp/c25_100_30_F_T_5_03_8_pwl_sandwich-absolute-precision_10.lp' read.
+Read time = 0.05 sec. (0.49 ticks)
+CPXPARAM_TimeLimit                               3600
+CPXPARAM_Threads                                 1
+Tried aggregator 1 time.
+MIP Presolve eliminated 1231 rows and 52 columns.
+MIP Presolve modified 1670 coefficients.
+Reduced MIP has 2719 rows, 3961 columns, and 17923 nonzeros.
+Reduced MIP has 94 binaries, 0 generals, 25 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (8.65 ticks)
+Probing fixed 2 vars, tightened 0 bounds.
+Probing time = 0.00 sec. (0.70 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 62 rows and 2 columns.
+Reduced MIP has 2657 rows, 3959 columns, and 17741 nonzeros.
+Reduced MIP has 92 binaries, 0 generals, 25 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (8.23 ticks)
+Probing time = 0.00 sec. (0.62 ticks)
+Clique table members: 8.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.10 sec. (91.68 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0   215173.1055    33                 215173.1055     2035         
+      0     0   216936.3589    41                   Cuts: 117     2142         
+      0     0   217326.0902    47                    Cuts: 52     2242         
+      0     0   217405.8624    49                    Cuts: 57     2300         
+      0     0   217478.4862    31                    Cuts: 43     2340         
+      0     0   217503.1507    38                    Cuts: 17     2363         
+      0     0   217524.8193    36                    Cuts: 19     2379         
+      0     0   217532.5812    37                    Cuts: 18     2388         
+      0     0   217548.4323    41                    Cuts: 24     2400         
+      0     2   217548.4323    41                 217548.8992     2400         
+Elapsed time = 1.04 sec. (1032.54 ticks, tree = 0.01 MB, solutions = 0)
+     20    22   217663.5521    33                 217555.6702     2647         
+     30    32   217768.0675    29                 217555.6702     2806         
+*    40+   40                       220915.0989   217555.6702             1.52%
+*    40+   40                       220759.6392   217555.6702             1.45%
+     44    46   218489.2193    13   220759.6392   217555.6702     3503    1.45%
+*    50+   50                       220603.6025   217555.6702             1.38%
+*    50+   50                       220027.3792   217555.6702             1.12%
+*    60+   56                       219357.9975   217555.6702             0.82%
+*    60+   55                       219256.4406   217555.6702             0.78%
+     78    69   218140.9297    21   219256.4406   217562.2272     4578    0.77%
+    110    93   217565.4084    39   219256.4406   217565.7504     5779    0.77%
+    154   129   217672.3528    39   219256.4406   217571.5316     6801    0.77%
+*   160+  131                       219241.4911   217571.5316             0.76%
+*   160+  131                       219233.1647   217571.5316             0.76%
+    160   133   218027.9254    37   219233.1647   217571.5316     6984    0.76%
+*   224   185      integral     0   219229.4066   217576.7269     8482    0.75%
+    245   206   218152.0381    25   219229.4066   217580.2133     9205    0.75%
+    312   259   219163.8615    20   219229.4066   217582.9567    11060    0.75%
+*   429   350      integral     0   219168.7713   217593.0702    14884    0.72%
+*   496   398      integral     0   219121.7840   217601.1147    16588    0.69%
+    586   474   218056.3838    36   219121.7840   217610.2239    19757    0.69%
+Elapsed time = 3.84 sec. (4505.80 ticks, tree = 2.92 MB, solutions = 11)
+*   606+  328                       219104.3269   218160.9911             0.43%
+*   606+  218                       219050.4714   218160.9911             0.41%
+*   606+  145                       219011.9738   218207.0571             0.37%
+    606   146   218207.6667    43   219011.9738   218210.3729    23690    0.37%
+    644   108   218603.9080    27   219011.9738   218399.4382    25395    0.28%
+*   706+   88                       219005.0903   218503.3222             0.23%
+*   706+   77                       219002.5099   218503.3222             0.23%
+*   706+   69                       219001.8066   218503.3222             0.23%
+*   706+   57                       218920.6069   218503.3222             0.19%
+*   706+   53                       218892.9373   218503.3222             0.18%
+    710    51   218669.1407    39   218892.9373   218524.9962    28039    0.17%
+    806   105   218797.1112    29   218892.9373   218611.7351    32589    0.13%
+    933   141   218842.8905    30   218892.9373   218679.1430    38030    0.10%
+   1123   201   218751.7117    17   218892.9373   218730.1052    44819    0.07%
+   1335   219   218865.5379    13   218892.9373   218769.7944    51478    0.06%
+   1567   220   218876.4269    31   218892.9373   218805.2994    57807    0.04%
+   1847   169   218888.5538    32   218892.9373   218845.7018    64278    0.02%
+
+Implied bound cuts applied:  1
+Flow cuts applied:  28
+Mixed integer rounding cuts applied:  100
+Lift and project cuts applied:  11
+
+Root node processing (before b&c):
+  Real time             =    1.04 sec. (1032.60 ticks)
+Sequential b&c:
+  Real time             =   12.44 sec. (14690.74 ticks)
+                          ------------
+Total (root+branch&cut) =   13.48 sec. (15723.34 ticks)
+
+Solution pool: 19 solutions saved.
+
+MIP - Integer optimal, tolerance (0.0001/1e-06):  Objective =  2.1889293735e+05
+Current MIP best bound =  2.1887105234e+05 (gap = 21.885, 0.01%)
+Solution time =   13.48 sec.  Iterations = 66301  Nodes = 2008 (66)
+Deterministic time = 15723.35 ticks  (1166.23 ticks/sec)
+
+
+Incumbent solution written to file '/net/phorcys/data/roc/sun/MPC20240405/results/sol/c25_100_30_F_T_5_03_8_pwl_sandwich-absolute-precision_10.txt'.

@@ -1,0 +1,54 @@
+
+Log started (V12.8.0.0) Sat Apr  6 07:16:49 2024
+
+
+Problem '/net/phorcys/data/roc/sun/MPC20240405/lp/c62_03_6_pwl_sandwich-absolute-precision_10.lp' read.
+Read time = 2.78 sec. (46.90 ticks)
+CPXPARAM_TimeLimit                               3600
+CPXPARAM_Threads                                 1
+Tried aggregator 1 time.
+MIP Presolve modified 1210 coefficients.
+Reduced MIP has 284399 rows, 273549 columns, and 1633939 nonzeros.
+Reduced MIP has 679 binaries, 0 generals, 30 SOSs, and 0 indicators.
+Presolve time = 4.14 sec. (568.40 ticks)
+Probing time = 0.16 sec. (52.71 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 284399 rows, 273549 columns, and 1633939 nonzeros.
+Reduced MIP has 679 binaries, 0 generals, 30 SOSs, and 0 indicators.
+Presolve time = 4.98 sec. (700.56 ticks)
+Probing time = 0.16 sec. (52.71 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 2668.35 sec. (314678.69 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0   354097.9660   265                 354097.9660   153380         
+      0     0   354138.6431   278                    Cuts: 47   153957         
+      0     0   354144.9473   273                 MIRcuts: 40   154222         
+      0     0   354149.2128   287                 MIRcuts: 21   154424         
+      0     0   354151.2874   279                 MIRcuts: 24   154610         
+      0     0   354152.9061   283                 MIRcuts: 12   154711         
+
+Mixed integer rounding cuts applied:  66
+Lift and project cuts applied:  1
+Gomory fractional cuts applied:  1
+
+Root node processing (before b&c):
+  Real time             = 3600.79 sec. (438245.56 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) = 3600.79 sec. (438245.56 ticks)
+
+
+MIP - Time limit exceeded, no integer solution.
+Current MIP best bound =  3.5415290607e+05 (gap is infinite)
+Solution time = 3600.79 sec.  Iterations = 154711  Nodes = 0 (1)
+Deterministic time = 438246.34 ticks  (121.71 ticks/sec)
+
+
+CPLEX Error  1217: No solution exists.
+No file written.

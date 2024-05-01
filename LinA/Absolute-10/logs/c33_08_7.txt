@@ -1,0 +1,73 @@
+
+Log started (V12.8.0.0) Sat Apr  6 05:38:44 2024
+
+
+Problem '/net/phorcys/data/roc/sun/MPC20240405/lp/c33_08_7_pwl_Lina-absolute-precision_10.lp' read.
+Read time = 0.12 sec. (1.44 ticks)
+CPXPARAM_TimeLimit                               3600
+CPXPARAM_Threads                                 1
+Tried aggregator 1 time.
+Reduced MIP has 9980 rows, 10368 columns, and 57224 nonzeros.
+Reduced MIP has 228 binaries, 0 generals, 20 SOSs, and 0 indicators.
+Presolve time = 0.07 sec. (20.02 ticks)
+Probing time = 0.00 sec. (1.77 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 9980 rows, 10368 columns, and 57224 nonzeros.
+Reduced MIP has 228 binaries, 0 generals, 20 SOSs, and 0 indicators.
+Presolve time = 0.04 sec. (24.42 ticks)
+Probing time = 0.00 sec. (1.77 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.06 sec. (44.28 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0  1009881.6061    19                1009881.6061     1261         
+*     0+    0                      1025177.5079  1009881.6061             1.49%
+      0     0  1009978.8032    20  1025177.5079      Cuts: 11     1267    1.48%
+      0     0  1010103.4237    21  1025177.5079       Cuts: 4     1273    1.47%
+      0     0  1010104.8991    17  1025177.5079       Cuts: 3     1275    1.47%
+*     0+    0                      1022973.2965  1010104.8991             1.26%
+*     0+    0                      1020999.9345  1010104.8991             1.07%
+*     0+    0                      1020058.9098  1010104.8991             0.98%
+      0     2  1010104.8991    17  1020058.9098  1010105.3794     1275    0.98%
+Elapsed time = 0.75 sec. (588.45 ticks, tree = 0.01 MB, solutions = 4)
+     31    19  1012110.6100    17  1020058.9098  1010750.9885     1512    0.91%
+     71    39  1016698.4468    13  1020058.9098  1011441.1562     1775    0.84%
+    105    57  1015444.4649    15  1020058.9098  1012054.9703     1994    0.78%
+    140    76  1015520.5061    14  1020058.9098  1012165.4551     2242    0.77%
+    180    98  1015635.5023    13  1020058.9098  1012265.3415     2513    0.76%
+    227   110    infeasible        1020058.9098  1012763.9339     2874    0.72%
+    264   131  1014579.3060    19  1020058.9098  1012849.8099     3138    0.71%
+    280   141  1013687.2907    15  1020058.9098  1012861.0154     3266    0.71%
+    348   174  1019043.4505    15  1020058.9098  1013018.4690     3763    0.69%
+    589   262        cutoff        1020058.9098  1013508.0193     5753    0.64%
+Elapsed time = 4.79 sec. (3789.36 ticks, tree = 2.12 MB, solutions = 4)
+    854   345  1019974.0112     9  1020058.9098  1013963.6105     7967    0.60%
+   1120   417  1015265.7947    13  1020058.9098  1014227.0127    10286    0.57%
+   1415   495  1015969.5710    13  1020058.9098  1014364.7892    12904    0.56%
+   1492   519  1017037.2316    18  1020058.9098  1015331.0389    14865    0.46%
+   1568   160  1021016.2948    16  1020058.9098  1018367.0345    15457    0.17%
+*  1658    20      integral     0  1019222.6613  1019040.9343    16013    0.02%
+
+Flow cuts applied:  5
+Mixed integer rounding cuts applied:  5
+
+Root node processing (before b&c):
+  Real time             =    0.75 sec. (586.20 ticks)
+Sequential b&c:
+  Real time             =   10.88 sec. (8771.09 ticks)
+                          ------------
+Total (root+branch&cut) =   11.63 sec. (9357.30 ticks)
+
+Solution pool: 5 solutions saved.
+
+MIP - Integer optimal, tolerance (0.0001/1e-06):  Objective =  1.0192226613e+06
+Current MIP best bound =  1.0191342386e+06 (gap = 88.4227, 0.01%)
+Solution time =   11.63 sec.  Iterations = 16038  Nodes = 1672 (8)
+Deterministic time = 9357.32 ticks  (804.27 ticks/sec)
+
+
+Incumbent solution written to file '/net/phorcys/data/roc/sun/MPC20240405/results/sol/c33_08_7_pwl_Lina-absolute-precision_10.txt'.

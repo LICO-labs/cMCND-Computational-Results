@@ -1,0 +1,82 @@
+
+Log started (V12.8.0.0) Sat Apr  6 07:38:11 2024
+
+
+Problem '/net/phorcys/data/roc/sun/MPC20240405/lp/c42_03_7_pwl_sandwich-absolute-precision_10.lp' read.
+Read time = 0.11 sec. (1.88 ticks)
+CPXPARAM_TimeLimit                               3600
+CPXPARAM_Threads                                 1
+Tried aggregator 1 time.
+MIP Presolve eliminated 39 rows and 0 columns.
+MIP Presolve modified 1811 coefficients.
+Reduced MIP has 12895 rows, 13867 columns, and 76115 nonzeros.
+Reduced MIP has 294 binaries, 0 generals, 20 SOSs, and 0 indicators.
+Presolve time = 0.10 sec. (31.93 ticks)
+Probing time = 0.00 sec. (2.34 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 12895 rows, 13867 columns, and 76115 nonzeros.
+Reduced MIP has 294 binaries, 0 generals, 20 SOSs, and 0 indicators.
+Presolve time = 0.09 sec. (32.48 ticks)
+Probing time = 0.00 sec. (2.34 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.25 sec. (136.34 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0  1377667.0622    24                1377667.0622     2412         
+*     0+    0                      1421258.6351  1377667.0622             3.07%
+      0     0  1377926.6332    38  1421258.6351      Cuts: 24     2449    3.05%
+      0     0  1379786.9490    29  1421258.6351      Cuts: 22     2518    2.92%
+      0     0  1380105.9391    33  1421258.6351      Cuts: 15     2558    2.90%
+      0     0  1380289.1485    43  1421258.6351      Cuts: 15     2583    2.88%
+      0     0  1380409.0685    39  1421258.6351       Cuts: 9     2600    2.87%
+      0     0  1380462.6916    38  1421258.6351    MIRcuts: 7     2611    2.87%
+      0     0  1380511.1786    40  1421258.6351       Cuts: 9     2629    2.87%
+*     0+    0                      1385069.5604  1380511.1786             0.33%
+      0     2  1380511.1786    40  1385069.5604  1380511.4944     2629    0.33%
+Elapsed time = 3.15 sec. (1865.24 ticks, tree = 0.01 MB, solutions = 2)
+     23    25  1384728.1732    16  1385069.5604  1380538.3277     3002    0.33%
+     49    38        cutoff        1385069.5604  1380562.8980     3420    0.33%
+     70    56  1381721.0101    29  1385069.5604  1380603.7951     3778    0.32%
+     90    69  1380845.1150    38  1385069.5604  1380674.5651     4223    0.32%
+    118    89        cutoff        1385069.5604  1380678.4497     4681    0.32%
+    137   102  1380863.0682    33  1385069.5604  1380680.1686     4965    0.32%
+    162   119  1380773.6120    29  1385069.5604  1380698.8760     5275    0.32%
+    185   132  1381938.1029    33  1385069.5604  1380703.1609     5844    0.32%
+    215   154  1383763.4052    22  1385069.5604  1380717.4416     6402    0.31%
+    366   239  1384449.2120    32  1385069.5604  1380760.9147     8909    0.31%
+Elapsed time = 9.68 sec. (5060.72 ticks, tree = 6.49 MB, solutions = 2)
+    505   288        cutoff        1385069.5604  1380823.1772    11852    0.31%
+    650   362        cutoff        1385069.5604  1380859.8636    14587    0.30%
+    809   433  1381551.1479    34  1385069.5604  1380885.3863    17332    0.30%
+    960   500  1385050.2058    25  1385069.5604  1380899.9004    20299    0.30%
+   1091   555  1381431.3298    26  1385069.5604  1380922.3474    22841    0.30%
+   1229   612  1384994.2683    32  1385069.5604  1380940.5579    25759    0.30%
+   1376   676        cutoff        1385069.5604  1380955.3733    28337    0.30%
+   1413   688  1384756.4040     1  1385069.5604  1384760.0185    32909    0.02%
+*  1415   228      integral     0  1385069.5599  1384760.0185    32919    0.02%
+
+GUB cover cuts applied:  1
+Implied bound cuts applied:  1
+Flow cuts applied:  3
+Mixed integer rounding cuts applied:  44
+Lift and project cuts applied:  11
+
+Root node processing (before b&c):
+  Real time             =    3.14 sec. (1862.16 ticks)
+Sequential b&c:
+  Real time             =   22.25 sec. (12070.72 ticks)
+                          ------------
+Total (root+branch&cut) =   25.38 sec. (13932.88 ticks)
+
+Solution pool: 3 solutions saved.
+
+MIP - Integer optimal solution:  Objective =  1.3850695599e+06
+Solution time =   25.38 sec.  Iterations = 32919  Nodes = 1416
+Deterministic time = 13932.91 ticks  (548.89 ticks/sec)
+
+
+Incumbent solution written to file '/net/phorcys/data/roc/sun/MPC20240405/results/sol/c42_03_7_pwl_sandwich-absolute-precision_10.txt'.

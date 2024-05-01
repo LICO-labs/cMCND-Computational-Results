@@ -1,0 +1,92 @@
+
+Log started (V12.8.0.0) Sat Apr  6 03:38:21 2024
+
+
+Problem '/net/phorcys/data/roc/sun/MPC20240405/lp/c100_400_10_V_L_10_03_7_pwl_Lina-absolute-precision_10.lp' read.
+Read time = 0.08 sec. (0.70 ticks)
+CPXPARAM_TimeLimit                               3600
+CPXPARAM_Threads                                 1
+Tried aggregator 1 time.
+MIP Presolve eliminated 1154 rows and 7 columns.
+MIP Presolve modified 966 coefficients.
+Reduced MIP has 4646 rows, 5521 columns, and 24947 nonzeros.
+Reduced MIP has 399 binaries, 0 generals, 100 SOSs, and 0 indicators.
+Presolve time = 0.03 sec. (11.81 ticks)
+Probing time = 0.00 sec. (0.85 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 4646 rows, 5521 columns, and 24947 nonzeros.
+Reduced MIP has 399 binaries, 0 generals, 100 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (13.12 ticks)
+Probing time = 0.00 sec. (0.84 ticks)
+Clique table members: 5.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.08 sec. (57.48 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0    63764.9154    72                  63764.9154     1290         
+*     0+    0                        66328.6361    63764.9154             3.87%
+      0     0    64285.9565    91    66328.6361     Cuts: 174     1381    3.08%
+      0     0    64558.6180    84    66328.6361     Cuts: 165     1492    2.67%
+      0     0    64703.9340    91    66328.6361     Cuts: 112     1630    2.45%
+      0     0    64777.6088    95    66328.6361     Cuts: 109     1776    2.34%
+      0     0    64814.3341   108    66328.6361      Cuts: 87     1861    2.28%
+      0     0    64847.6433    88    66328.6361      Cuts: 94     1954    2.23%
+*     0+    0                        65880.0712    64847.6433             1.57%
+*     0+    0                        65348.9101    64847.6433             0.77%
+*     0+    0                        65298.0033    64847.6433             0.69%
+*     0+    0                        65221.8656    64847.6433             0.57%
+      0     0    64884.9236    95    65221.8656      Cuts: 61     2030    0.52%
+      0     0    64919.5921    61    65221.8656      Cuts: 78     2115    0.46%
+      0     0    64929.2368    86    65221.8656      Cuts: 61     2191    0.45%
+      0     0    64946.1875   101    65221.8656      Cuts: 66     2272    0.42%
+      0     0    64953.0025    84    65221.8656      Cuts: 79     2320    0.41%
+      0     0    64959.8800    62    65221.8656      Cuts: 72     2373    0.40%
+      0     0    64964.0327    65    65221.8656      Cuts: 42     2418    0.40%
+      0     0    64964.8117    64    65221.8656      Cuts: 23     2440    0.39%
+      0     2    64964.8117    64    65221.8656    64965.0812     2440    0.39%
+Elapsed time = 1.33 sec. (1087.47 ticks, tree = 0.01 MB, solutions = 5)
+     34    24    65068.1128    47    65221.8656    64974.1897     3060    0.38%
+     80    48    64985.4848    61    65221.8656    64974.8603     4117    0.38%
+    112    75    65025.4593    64    65221.8656    64978.0385     4676    0.37%
+    150   105    65063.3606    62    65221.8656    64979.5381     5414    0.37%
+    187   123    65018.8211    74    65221.8656    64981.9586     6097    0.37%
+    233   153    65021.8039    59    65221.8656    64995.3139     7041    0.35%
+    268   180    65213.7550    65    65221.8656    64995.7728     8360    0.35%
+    304   198        cutoff          65221.8656    64998.8634     9384    0.34%
+    331   216    65051.2273    81    65221.8656    64999.7743    10420    0.34%
+    508   333    65070.4461    44    65221.8656    65006.3459    16422    0.33%
+Elapsed time = 4.70 sec. (4254.87 ticks, tree = 1.65 MB, solutions = 5)
+    693   434    65087.8528    56    65221.8656    65010.0000    22064    0.32%
+    863   533    65152.8059    29    65221.8656    65017.8600    28346    0.31%
+*  1000+  435                        65156.0150    65022.8165             0.20%
+   1022   441    65071.3983    63    65156.0150    65025.3404    34156    0.20%
+   1170   499    65080.8432    72    65156.0150    65028.1877    40281    0.20%
+   1348   569        cutoff          65156.0150    65032.5182    46640    0.19%
+   1428   592    65128.6540     6    65156.0150    65128.6540    53873    0.04%
+
+Cover cuts applied:  1
+Implied bound cuts applied:  3
+Flow cuts applied:  70
+Mixed integer rounding cuts applied:  144
+Lift and project cuts applied:  19
+Gomory fractional cuts applied:  1
+
+Root node processing (before b&c):
+  Real time             =    1.32 sec. (1085.11 ticks)
+Sequential b&c:
+  Real time             =   10.73 sec. (10256.27 ticks)
+                          ------------
+Total (root+branch&cut) =   12.05 sec. (11341.38 ticks)
+
+Solution pool: 6 solutions saved.
+
+MIP - Integer optimal solution:  Objective =  6.5156014955e+04
+Solution time =   12.05 sec.  Iterations = 53940  Nodes = 1433
+Deterministic time = 11341.39 ticks  (941.34 ticks/sec)
+
+
+Incumbent solution written to file '/net/phorcys/data/roc/sun/MPC20240405/results/sol/c100_400_10_V_L_10_03_7_pwl_Lina-absolute-precision_10.txt'.

@@ -1,0 +1,75 @@
+
+Log started (V12.8.0.0) Sat Apr  6 03:39:31 2024
+
+
+Problem '/net/phorcys/data/roc/sun/MPC20240405/lp/c43_03_7_pwl_Lina-absolute-precision_10.lp' read.
+Read time = 0.12 sec. (1.87 ticks)
+CPXPARAM_TimeLimit                               3600
+CPXPARAM_Threads                                 1
+Tried aggregator 1 time.
+MIP Presolve eliminated 1341 rows and 0 columns.
+MIP Presolve modified 1652 coefficients.
+Reduced MIP has 11593 rows, 13128 columns, and 71294 nonzeros.
+Reduced MIP has 294 binaries, 0 generals, 20 SOSs, and 0 indicators.
+Presolve time = 0.11 sec. (39.45 ticks)
+Probing time = 0.01 sec. (2.23 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 11593 rows, 13128 columns, and 71294 nonzeros.
+Reduced MIP has 294 binaries, 0 generals, 20 SOSs, and 0 indicators.
+Presolve time = 0.07 sec. (30.65 ticks)
+Probing time = 0.00 sec. (2.23 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.10 sec. (64.47 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0  1150671.1093    25                1150671.1093     1500         
+*     0+    0                      1158871.7274  1150671.1093             0.71%
+      0     0  1151085.8800    26  1158871.7274      Cuts: 39     1539    0.67%
+      0     0  1151461.4167    28  1158871.7274      Cuts: 22     1567    0.64%
+      0     0  1151563.5111    31  1158871.7274      Cuts: 27     1598    0.63%
+      0     0  1151583.2129    31  1158871.7274      Cuts: 19     1610    0.63%
+      0     0  1151617.8233    31  1158871.7274      Cuts: 12     1625    0.63%
+*     0+    0                      1156299.7383  1151617.8233             0.40%
+*     0+    0                      1155254.3910  1151617.8233             0.31%
+*     0+    0                      1154007.4898  1151617.8233             0.21%
+      0     2  1151617.8233    31  1154007.4898  1151618.0223     1625    0.21%
+Elapsed time = 1.81 sec. (1257.73 ticks, tree = 0.01 MB, solutions = 4)
+     28    16  1153531.2476    11  1154007.4898  1151648.1414     1852    0.20%
+     53    28        cutoff        1154007.4898  1152185.1827     2062    0.16%
+     90    45        cutoff        1154007.4898  1152414.3300     2419    0.14%
+    109    55  1152669.7031    26  1154007.4898  1152457.7236     2597    0.13%
+    139    62  1153134.4569    24  1154007.4898  1152615.3326     2868    0.12%
+    181    74  1152671.2888    26  1154007.4898  1152660.1756     3182    0.12%
+    225    90  1153307.0910    25  1154007.4898  1152706.8023     3611    0.11%
+    260    90  1153976.6317    30  1154007.4898  1152815.3243     3902    0.10%
+    295    95  1153307.8752    23  1154007.4898  1152860.0618     4266    0.10%
+    468   110  1153076.2381    33  1154007.4898  1153010.9960     5722    0.09%
+Elapsed time = 6.94 sec. (4379.37 ticks, tree = 0.82 MB, solutions = 4)
+    658   128        cutoff        1154007.4898  1153120.9600     7042    0.08%
+    873   120        cutoff        1154007.4898  1153240.0041     8513    0.07%
+   1082    85  1153789.5922    34  1154007.4898  1153467.4712     9986    0.05%
+
+Implied bound cuts applied:  2
+Flow cuts applied:  19
+Mixed integer rounding cuts applied:  19
+
+Root node processing (before b&c):
+  Real time             =    1.81 sec. (1257.33 ticks)
+Sequential b&c:
+  Real time             =   10.59 sec. (6754.62 ticks)
+                          ------------
+Total (root+branch&cut) =   12.40 sec. (8011.95 ticks)
+
+Solution pool: 4 solutions saved.
+
+MIP - Integer optimal, tolerance (0.0001/1e-06):  Objective =  1.1540074898e+06
+Current MIP best bound =  1.1538930416e+06 (gap = 114.448, 0.01%)
+Solution time =   12.41 sec.  Iterations = 10724  Nodes = 1246 (20)
+Deterministic time = 8011.99 ticks  (645.84 ticks/sec)
+
+
+Incumbent solution written to file '/net/phorcys/data/roc/sun/MPC20240405/results/sol/c43_03_7_pwl_Lina-absolute-precision_10.txt'.

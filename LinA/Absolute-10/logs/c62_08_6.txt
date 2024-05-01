@@ -1,0 +1,44 @@
+
+Log started (V12.8.0.0) Sat Apr  6 05:35:13 2024
+
+
+Problem '/net/phorcys/data/roc/sun/MPC20240405/lp/c62_08_6_pwl_Lina-absolute-precision_10.lp' read.
+Read time = 2.51 sec. (46.90 ticks)
+CPXPARAM_TimeLimit                               3600
+CPXPARAM_Threads                                 1
+Tried aggregator 1 time.
+Reduced MIP has 284399 rows, 273280 columns, and 1633132 nonzeros.
+Reduced MIP has 679 binaries, 0 generals, 30 SOSs, and 0 indicators.
+Presolve time = 4.00 sec. (550.25 ticks)
+Probing time = 0.16 sec. (52.70 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 284399 rows, 273280 columns, and 1633132 nonzeros.
+Reduced MIP has 679 binaries, 0 generals, 30 SOSs, and 0 indicators.
+Presolve time = 5.09 sec. (700.16 ticks)
+Probing time = 0.17 sec. (52.70 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 3588.56 sec. (457674.14 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0  -1.00000e+37     0                      0.0000   181265         
+
+Root node processing (before b&c):
+  Real time             = 3600.42 sec. (459636.52 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) = 3600.42 sec. (459636.52 ticks)
+
+
+MIP - Time limit exceeded, no integer solution.
+Current MIP best bound =  0.0000000000e+00 (gap is infinite)
+Solution time = 3600.42 sec.  Iterations = 181265  Nodes = 0
+Deterministic time = 459637.30 ticks  (127.66 ticks/sec)
+
+
+CPLEX Error  1217: No solution exists.
+No file written.
